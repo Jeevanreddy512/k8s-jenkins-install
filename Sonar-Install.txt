@@ -1,0 +1,9 @@
+Link == https://artifacthub.io/packages/helm/choerodon/sonarqube
+
+$ helm repo add bitnami https://charts.bitnami.com/bitnami
+$ helm install my-release bitnami/sonarqube
+
+$ helm delete my-release
+
+
+Get username and Password after helm install command.
